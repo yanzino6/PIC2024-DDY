@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle do Carrinho</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Controle do Carrinho com Câmera</h2>
+    <img src="http://192.168.15.22:8081/stream" width="320" height="240" />
+    <br><br>
+    <button onclick="fetch('/forward')">Frente</button>
+    <button onclick="fetch('/left')">Esquerda</button>
+    <button onclick="fetch('/right')">Direita</button>
+    <button onclick="fetch('/backward')">Ré</button>
+    <button onclick="fetch('/stop')">Parar</button>
+    <button onclick="fetch('/flashOn')">Ligar Flash</button>
+    <button onclick="fetch('/flashOff')">Desligar Flash</button>
+</body>
+</html>

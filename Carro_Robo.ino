@@ -190,7 +190,6 @@ void handleRoot(){
 "      max-height: 100%;" 
 "      border-radius: 10px;"
 "      object-fit: cover;" 
-"      transform: rotate(180deg);"
 "    }"
     
 "    .controls {"
